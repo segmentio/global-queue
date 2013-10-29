@@ -16,9 +16,11 @@ push('identify', 'user@example.com');
 push('track', 'Loaded a Page');
 
 window._analytics;
-// [['key', '506g76b52f52c3f662000190'],
-//  ['identify', 'user@example.com']
-//  ['track', 'Loaded a Page']]
+// [
+//   ['key', '506g76b52f52c3f662000190'],
+//   ['identify', 'user@example.com'],
+//   ['track', 'Loaded a Page']
+// ]
 ```
 
 ## API
