@@ -1,7 +1,7 @@
 {
   "name": "global-queue",
   "repo": "segmentio/global-queue",
-  "description": "Generate a method that will push onto a global queue, commonly used by 3rd-party Javascript tools.",
+  "description": "Generate a method that will push onto a global queue.",
   "version": "0.0.1",
   "license": "MIT",
   "keywords": ["global", "queue", "push", "analytics"],

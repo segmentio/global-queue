@@ -1,3 +1,4 @@
+
 # global-queue
 
   Generate a method that will push onto a global queue, commonly used by 3rd-party Javascript tools.
@@ -25,9 +26,15 @@ window._analytics;
 
 ## API
 
-### generate(name)
+### generate(name, [options])
   
-  Return a function that will push onto the global queue named `name`, creating it if it doesn't already exist.
+  Return a function that will push onto the global queue named `name`, creating it if it doesn't already exist. Options:
+
+    {
+      wrap: true
+    }
+
+  Setting `wrap` to `false` will not wrap your arguments in an array. Most services want that, but some keep them as objects or plain values.
   
 ## License
 

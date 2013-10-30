@@ -27,4 +27,14 @@ describe('global-queue', function () {
     assert('c' == window.three[1][2]);
   });
 
+  it('should not wrap if options.wrap is false', function () {
+    var push = queue('four', { wrap: false });
+    push({ val: 'a' });
+    push({ val: 'b' });
+    push({ val: 'c' });
+    assert('a' == window.four[0].val);
+    assert('b' == window.four[1].val);
+    assert('c' == window.four[2].val);
+  });
+
 });
