@@ -5,6 +5,9 @@
   "version": "0.0.1",
   "license": "MIT",
   "keywords": ["global", "queue", "push", "analytics"],
+  "dependencies": {
+    "visionmedia/debug": "*"
+  },
   "development": {
     "component/assert": "*"
   },
