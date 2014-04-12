@@ -2,7 +2,7 @@
   "name": "global-queue",
   "repo": "segmentio/global-queue",
   "description": "Generate a method that will push onto a global queue.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "keywords": ["global", "queue", "push", "analytics"],
   "dependencies": {
