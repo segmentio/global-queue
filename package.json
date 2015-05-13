@@ -1,0 +1,19 @@
+{
+  "name": "global-queue",
+  "repository": "https://github.com/segmentio/global-queue.git",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Generate a method that will push onto a global queue.",
+  "keywords": [
+    "global",
+    "queue",
+    "push",
+    "analytics"
+  ],
+  "dependencies": {
+    "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
