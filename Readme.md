@@ -1,7 +1,7 @@
 
 # global-queue
 
-  Generate a method that will push onto a global queue, commonly used by 3rd-party Javascript tools.
+  Generate a method that will push onto a global queue, commonly used by 3rd-party JavaScript tools.
 
 ## Installation
 
